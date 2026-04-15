@@ -7,8 +7,6 @@
 これを利用して$`135`$秒が「何分何秒」になるか計算せよ。
 ```javascript
 let totalSeconds = 135;
-let min = 0;
-let sec = 0;
 
 //WRITE ME!!
 
