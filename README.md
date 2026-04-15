@@ -794,28 +794,30 @@ function defMsg() {
 
 ## 2. JavaScript基礎演習
 
-### 2.3-A1. $`\sin x`$
-$`\sin x`$の値は$`x`$が0に近い場合、以下のように近似することができる。  
-> $`\sin x \simeq x - \frac{x^3}{6}`$  
+### 2.3-A1. $`TimeConversion`$
+1分間は60秒である。合計の秒数が与えられたとき、「分」と「秒」の値は以下のように求めることができる。
+> $`min = \text{totalSeconds} \div 60 \text{  (整数部分)}`$  
+> $`sec = \text{totalSeconds} \pmod{60} \text{ (余り)}`$
 
-これを利用して$`\sin 1°`$の近似値を求めよ。
+これを利用して$`135`$秒が「何分何秒」になるか計算せよ。
 ```javascript
-let x = 1;
-let result = 0;
+let totalSeconds = 135;
+let min = 0;
+let sec = 0;
 
 //WRITE ME!!
 
-console.log(result);
+console.log(min + "分" + sec + "秒");
 ```
 
 <details><summary>入力と出力</summary>
 
 ```
 [in]
-x = 1
+totalSeconds = 135
 
 [out]
-0.8333333333333334
+2分15秒
 ```
 </details>
 
