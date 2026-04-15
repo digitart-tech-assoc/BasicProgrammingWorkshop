@@ -39,3 +39,7 @@ n = 255
 11111111
 ```
 </details>
+
+---
+[次の問題へ進む](Q10[B][Day2]_Euclidean.md)  
+[演習問題一覧に戻る](../README.md#javascript基礎演習)

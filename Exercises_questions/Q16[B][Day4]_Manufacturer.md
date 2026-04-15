@@ -39,3 +39,7 @@ A = [10, 20, 30, 40, 50]
 ```
 
 </details>
+
+---
+[次の問題へ進む](Q17[B][Day4]_AliveDays.md)  
+[演習問題一覧に戻る](../README.md#javascript基礎演習)

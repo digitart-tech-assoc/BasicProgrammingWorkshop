@@ -10,3 +10,7 @@
 // WRITE ME!!
 
 ```
+
+---
+[次の問題へ進む](Q3[A][Day1]_BMI.md)  
+[演習問題一覧に戻る](../README.md#javascript基礎演習)

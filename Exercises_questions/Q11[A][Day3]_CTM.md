@@ -39,3 +39,7 @@ scores = [10, 20, 30, 40, 50]
 Mean: 30
 ```
 </details>
+
+---
+[次の問題へ進む](Q12[A][Day3]_Anka.md)  
+[演習問題一覧に戻る](../README.md#javascript基礎演習)

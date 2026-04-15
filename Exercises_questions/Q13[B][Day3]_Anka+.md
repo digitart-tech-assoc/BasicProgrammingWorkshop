@@ -36,3 +36,7 @@ console.log("合計: " + total_cost + "円");
 合計: 1000円
 ```
 </details>
+
+---
+[次の問題へ進む](Q14[B][Day3]_KIYOSHI!.md)  
+[演習問題一覧に戻る](../README.md#javascript基礎演習)

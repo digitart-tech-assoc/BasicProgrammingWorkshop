@@ -21,3 +21,7 @@ console.log(result);
 true
 ```
 </details>
+
+---
+[次の問題へ進む](Q8[B][Day2]_Sqrt.md)  
+[演習問題一覧に戻る](../README.md#javascript基礎演習)
