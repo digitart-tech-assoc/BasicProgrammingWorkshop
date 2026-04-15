@@ -25,5 +25,7 @@ totalSeconds = 135
 </details>
 
 ---
-[次の問題へ進む](Q2[A][Day1]_dice.md)  
-[演習問題一覧に戻る](../README.md#javascript基礎演習)
+Congratulations!!  
+現時点での演習問題は終わりです。  
+次は「条件文」を学んでいきます。
+[演習問題一覧に戻る](../README.md#141-条件分岐)
