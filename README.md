@@ -794,7 +794,7 @@ function defMsg() {
 
 ## 2. JavaScript基礎演習
 
-### 2.3-A1. $`TImeConversion`$
+### 2.3-A1. $`TimeConversion`$
 1分間は60秒である。合計の秒数が与えられたとき、「分」と「秒」の値は以下のように求めることができる。
 > $`min = \text{totalSeconds} \div 60 \text{  (整数部分)}`$  
 > $`sec = \text{totalSeconds} \pmod{60} \text{ (余り)}`$
