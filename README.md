@@ -684,7 +684,7 @@ while( cnt < 5 ){
 > 4
 ```
 
-> [!TIPS]
+> [!TIP]
 > - break文について
 > 
 > `break`文は、現在のループやスイッチ文の実行を中断し、制御をその外側に移すために使用されます。主に以下のような場面で利用されます：
@@ -694,7 +694,7 @@ while( cnt < 5 ){
 > 
 > ```javascript
 > let cnt = 0;
-> while( cnt < 5>){
+> while( cnt < 5 ){
 >   console.log(cnt);
 >   cnt += 1;
 >   if(cnt == 3){
