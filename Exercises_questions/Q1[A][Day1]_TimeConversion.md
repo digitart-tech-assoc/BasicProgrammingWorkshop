@@ -8,11 +8,11 @@
 
 > [!NOTE]
 > `Math.floor()` を用いて小数部分を切り捨てることができる。  
+> ※ 「与えられた数値以下の最大の整数を返す関数」  
 > ```javascript
 > console.log(Math.floor(5.95));
 > > 5
 > ```
-> ※ 「与えられた数値以下の最大の整数を返す関数」
 
 ```javascript
 let totalSeconds = 135;
