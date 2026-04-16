@@ -23,3 +23,7 @@ celsius = 25 (°C)
 華氏温度: 77°F
 ```
 </details>
+
+---
+[次の問題へ進む](Q1_6_CubeCalculation.md)  
+[演習問題一覧に戻る](../../README.md#javascript基礎演習)

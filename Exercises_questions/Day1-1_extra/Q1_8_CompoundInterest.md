@@ -31,3 +31,7 @@ rate = 0.05 (5%)
 3年後: 11576.25円
 ```
 </details>
+
+---
+[次の問題へ進む](Q1_9_ExponentialGrowth.md)  
+[演習問題一覧に戻る](../../README.md#javascript基礎演習)

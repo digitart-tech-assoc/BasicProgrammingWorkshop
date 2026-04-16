@@ -27,3 +27,7 @@ hour = 5
 5時間後のバクテリア個数: 3200
 ```
 </details>
+
+---
+[次の問題へ進む](Q1_10_FractionAddition.md)  
+[演習問題一覧に戻る](../../README.md#javascript基礎演習)

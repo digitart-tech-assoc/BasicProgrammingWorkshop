@@ -28,3 +28,7 @@ price3 = 1500
 最終金額(税込): 5500円
 ```
 </details>
+
+---
+[次の問題へ進む](Q1_4_PercentageCalculation.md)  
+[演習問題一覧に戻る](../../README.md#javascript基礎演習)

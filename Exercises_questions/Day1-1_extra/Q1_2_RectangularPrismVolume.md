@@ -24,3 +24,7 @@ height = 4 (cm)
 体積: 240cm³
 ```
 </details>
+
+---
+[次の問題へ進む](Q1_3_TaxCalculation.md)  
+[演習問題一覧に戻る](../../README.md#javascript基礎演習)

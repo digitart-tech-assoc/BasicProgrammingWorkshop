@@ -28,3 +28,7 @@ totalSeconds = 3665
 1時1分5秒
 ```
 </details>
+
+---
+[次の問題へ進む](Q1_2_RectangularPrismVolume.md)  
+[演習問題一覧に戻る](../../README.md#javascript基礎演習)

@@ -32,3 +32,8 @@ d = 6 (分母)
 
 > [!NOTE]
 > 約分は不要です。
+
+---
+Congratulations!!  
+現時点での演習問題は終わりです。  
+[演習問題一覧に戻る](../../README.md#javascript基礎演習)

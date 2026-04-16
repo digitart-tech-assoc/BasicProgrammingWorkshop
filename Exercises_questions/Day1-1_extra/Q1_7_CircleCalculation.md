@@ -28,3 +28,7 @@ pi = 3.14
 面積: 78.5cm²
 ```
 </details>
+
+---
+[次の問題へ進む](Q1_8_CompoundInterest.md)  
+[演習問題一覧に戻る](../../README.md#javascript基礎演習)
