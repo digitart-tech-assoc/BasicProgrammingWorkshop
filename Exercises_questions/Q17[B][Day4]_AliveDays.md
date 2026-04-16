@@ -49,3 +49,7 @@ nowDate = [2025, 4, 29]
 ```
 
 </details>
+
+---
+[次の問題へ進む](Q18[B][Day4]_Lottery.md)  
+[演習問題一覧に戻る](../README.md#javascript基礎演習)

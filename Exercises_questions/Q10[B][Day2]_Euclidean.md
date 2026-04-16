@@ -50,3 +50,8 @@ B = 103
 ```
 
 </details>
+
+---
+Congratulations!!  
+本日の演習問題はこれで終わりです。  
+[演習問題一覧に戻る](../README.md#javascript基礎演習)

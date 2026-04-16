@@ -33,3 +33,7 @@ console.log("確率：" + probability);
 ```
 
 </details>
+
+---
+[次の問題へ進む](Q19[C][Day4]_Fibonatti.md)  
+[演習問題一覧に戻る](../README.md#javascript基礎演習)

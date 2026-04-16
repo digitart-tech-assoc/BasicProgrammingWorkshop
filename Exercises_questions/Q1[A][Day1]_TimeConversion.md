@@ -7,8 +7,6 @@
 これを利用して$`135`$秒が「何分何秒」になるか計算せよ。
 ```javascript
 let totalSeconds = 135;
-let min = 0;
-let sec = 0;
 
 //WRITE ME!!
 
@@ -25,3 +23,9 @@ totalSeconds = 135
 2分15秒
 ```
 </details>
+
+---
+Congratulations!!  
+現時点での演習問題は終わりです。  
+次は「条件文」を学んでいきます。
+[演習問題一覧に戻る](../README.md#141-条件分岐)
