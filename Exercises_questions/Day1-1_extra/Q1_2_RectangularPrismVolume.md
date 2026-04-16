@@ -1,0 +1,30 @@
+### Q1-2[A]. $`直方体の体積計算`$
+
+直方体の縦・横・高さが与えられたとき、直方体の体積を計算せよ。
+
+```javascript
+let length = 10;   // 横の長さ(cm)
+let width = 6;     // 縦の長さ(cm)
+let height = 4;    // 高さ(cm)
+
+//WRITE ME!!
+
+console.log("体積: " + volume + "cm³");
+```
+
+<details><summary>入力と出力</summary>
+
+```
+[in]
+length = 10 (cm)
+width = 6 (cm)
+height = 4 (cm)
+
+[out]
+体積: 240cm³
+```
+</details>
+
+---
+[次の問題へ進む](Q1_3_TaxCalculation.md)  
+[演習問題一覧に戻る](../../README.md#javascript基礎演習)
