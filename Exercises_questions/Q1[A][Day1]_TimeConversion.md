@@ -5,6 +5,15 @@
 > $`sec = \text{totalSeconds} \pmod{60} \text{ (余り)}`$
 
 これを利用して$`135`$秒が「何分何秒」になるか計算せよ。
+
+> [!NOTE]
+> `Math.floor()` を用いて小数部分を切り捨てることができる。  
+> ※ 「与えられた数値以下の最大の整数を返す関数」  
+> ```javascript
+> console.log(Math.floor(5.95));
+> > 5
+> ```
+
 ```javascript
 let totalSeconds = 135;
 

@@ -1,41 +1,68 @@
-### Q16[B]. $`Manufacturer`$
+### Q16[B]. $`StepCounter`$ - 歩数管理・目標達成判定
 
-ある工房では、$`N`$ 個の工芸品 を製作する必要がある。各工芸品には製作日数が決まっており、工芸品 $`i`$ を作るには $`A[i]`$ 日かかる。
-この工房には $`3`$ 人の職人 がおり、同時に工芸品を製作できる。ただし、以下の条件を遵守する必要がある。
-- 各工芸品は $`1`$ 人の職人が単独で製作 する。（複数人で同時に1つの工芸品を作ることはできない）
-- $`1`$ 人の職人は、$`1`$ 度に $`1`$ つの工芸品のみを製作可能。
-- 工芸品の製作を 途中で別の職人に引き継ぐことはできない。
-- 各職人の作業開始タイミングや順番は自由に決めてよい。
+あなたは毎日の歩数を記録している。$`1`$ 週間（$`7`$ 日間）の歩数データが与えられたとき、次の3つを計算する関数を作成しなさい。
 
-すべての工芸品の製作が完了するまでにかかる最短日数を求めよ。
+1. **週間平均歩数を計算する** `calculateAverage(dailySteps)`
+2. **目標達成日数をカウントする** `countAchievement(dailySteps, target)`
+3. **最高歩数の日のインデックスを取得する** `findMaxDay(dailySteps)`
+
+これらの関数を使用して、ユーザーの歩数管理アプリを実装しなさい。
 
 ```javascript
-let A = [1,5,2,4,8,3,7,8,3,1,6,8,2,4,3,7,4,2,4,3];
-let N = A.length;
+// 関数を定義してください
+// function calculateAverage(dailySteps) { ... }
+// function countAchievement(dailySteps, target) { ... }
+// function findMaxDay(dailySteps) { ... }
 
-//WRITE ME!!
+// 例
+let dailySteps = [8500, 9200, 7100, 10500, 6800, 11200, 9000];
+let targetSteps = 8000;
 
-console.log("最短日数：" + day + "日");
+let average = calculateAverage(dailySteps);
+let achievementDays = countAchievement(dailySteps, targetSteps);
+let maxDayIndex = findMaxDay(dailySteps);
+
+console.log("週間平均: " + average + "歩");
+console.log("目標達成日数: " + achievementDays + "日");
+console.log("最高歩数の日: " + (maxDayIndex + 1) + "日目（" + dailySteps[maxDayIndex] + "歩）");
 ```
 
 <details><summary>入力と出力</summary>
 
-入出力例1
+**入出力例1**
 ```
 [in]
-A = [1, 5, 2, 4, 8, 3, 7, 8, 3, 1, 6, 8, 2, 4, 3, 7, 4, 2, 4, 3]
+dailySteps = [8500, 9200, 7100, 10500, 6800, 11200, 9000]
+targetSteps = 8000
 
 [out]
-最短日数：29日
+週間平均: 8914歩
+目標達成日数: 5日
+最高歩数の日: 6日目（11200歩）
 ```
 
-入出力例2
+**入出力例2**
 ```
 [in]
-A = [10, 20, 30, 40, 50]
+dailySteps = [5000, 6500, 4800, 7200, 5900, 6100, 5500]
+targetSteps = 6000
 
 [out]
-最短日数：50日
+週間平均: 5871歩
+目標達成日数: 3日
+最高歩数の日: 4日目（7200歩）
+```
+
+**入出力例3**
+```
+[in]
+dailySteps = [12000, 11500, 13000, 12500, 11800, 12200, 12800]
+targetSteps = 11000
+
+[out]
+週間平均: 12242歩
+目標達成日数: 7日
+最高歩数の日: 3日目（13000歩）
 ```
 
 </details>
