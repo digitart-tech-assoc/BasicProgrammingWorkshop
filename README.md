@@ -34,11 +34,11 @@
         Exercises_questions/Q1[A][Day1]_TimeConversion.md
       ). $TimeConversion$
     - [Q2[A][Day1]](
-        Exercises_questions/Q2[A][Day1]_dice.md
-      ). $dice$
+        Exercises_questions/Q2[A][Day1]_Shopping.md
+      ). $Shopping$
     - [Q3[A][Day1]](
-        Exercises_questions/Q3[A][Day1]_BMI.md
-      ). $BMI$
+        Exercises_questions/Q3[A][Day1]_Dice.md
+      ). $Dice$
     - [Q4[A][Day1]](
         Exercises_questions/Q4[A][Day1]_NengoConverter.md
       ). $NengoConverter$
