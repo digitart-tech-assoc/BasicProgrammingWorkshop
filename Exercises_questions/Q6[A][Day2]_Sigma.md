@@ -19,5 +19,5 @@ console.log(sum);
 </details>
 
 ---
-[次の問題へ進む](Q7[B][Day2]_Collatz.md)  
+[次の問題へ進む](Q7[A][Day2]_MultiPlicationTeable.md)  
 [演習問題一覧に戻る](../README.md#javascript基礎演習)
