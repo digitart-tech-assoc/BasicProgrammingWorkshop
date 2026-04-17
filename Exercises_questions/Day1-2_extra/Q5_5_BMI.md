@@ -1,4 +1,4 @@
-### Q3[A]. $`BMI`$
+### Q5-5[A]. $`BMI`$
 
 BMI（Body Mass Index, 体格指数）は体重と身長から算出される値で、次の式で計算される。
 > $`BMI = \frac{体重(kg)}{身長(m)^2}`$
@@ -52,5 +52,5 @@ height = 167
 </details>
 
 ---
-[次の問題へ進む](Q4[A][Day1]_NengoConverter.md)  
+[次の問題へ進む](Q5_6_SpeedJudgment.md)  
 [演習問題一覧に戻る](../README.md#javascript基礎演習)
