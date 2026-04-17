@@ -47,6 +47,27 @@ function not(a) {
 
 ```
 
+> [!NOTE]
+> すでにビット計算で必要な関数を実装してある。    
+> `and(A,B)`, `or(A,B)`, `not(A)`の関数が上のサンプルコードに定義されている。  
+> その関数と、宣言済みの変数のみを使ってコードを書ける。  
+> ```javascript
+> let A = true
+> let B = false
+> console.log(and(A,B));
+> console.log(or(A,B));
+> console.log(not(A));
+> console.log(and(A,not(B)))
+> > false //AND演算
+> > true  //OR演算
+> > false //NOT演算
+> > true
+> ```
+
+> [!TIP]
+> この演算を「半加算器」と呼ぶ。  
+> CPUが計算する上で最も基本となる論理回路である。CPUは二進数(電気信号のON/OFF)を用いて演算を行うため、このように`true`と`false`のみを使用した計算を行っている。  
+
 <details><summary>入力と出力</summary>
 
 入出力例1
