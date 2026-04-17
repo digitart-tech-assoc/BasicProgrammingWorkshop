@@ -54,4 +54,6 @@ B = 103
 ---
 Congratulations!!  
 本日の演習問題はこれで終わりです。  
+追加問題もあるよ!!
+[追加問題へ](./Day2_extra/Q10_1_FactorialCalculation_.md)  
 [演習問題一覧に戻る](../README.md#javascript基礎演習)

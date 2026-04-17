@@ -38,5 +38,5 @@ Congratulations!!
 現時点での演習問題は終わりです。  
 次は「条件文」を学んでいきます。  
 追加問題もあるよ!!
-[追加問題へ](./Day1-1_extra/Q1_1_TimeToHMS.md)
+[追加問題へ](./Day1-1_extra/Q1_1_TimeToHMS.md)  
 [演習問題一覧に戻る](../README.md#141-条件分岐)
