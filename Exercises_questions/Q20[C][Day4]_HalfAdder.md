@@ -14,13 +14,37 @@
 | true  | true  | false | true  | 
 
 ```javascript
-let A = true;
+
+function halfAdder(A, B) {
+    let sum = false;
+    let carry = false;
+
+    // WRITE ME!!
+
+    return { sum, carry }
+}
+
+let A = false;
 let B = false;
 
-// WRITE ME!!
+let result = halfAdder(A, B);
+console.log("Sum:", result.sum);
+console.log("Carry:", result.carry);
 
-console.log("A: " + A + ", B: " + B);
-console.log("Sum: " + S + ", Carry: " + C);
+function or(a, b) {
+    let result = (a == true || b == true) ? true : false;
+    return result
+}
+
+function and(a, b) {
+    let result = (a == true && b == true) ? true : false;
+    return result
+}
+
+function not(a) {
+    return a == true ? false : true;
+}
+
 ```
 
 <details><summary>入力と出力</summary>
@@ -28,36 +52,46 @@ console.log("Sum: " + S + ", Carry: " + C);
 入出力例1
 ```
 [in]
+A = false
+B = false
+
+[out]
+Sum: false
+Carry: false
+```
+
+入出力例2
+```
+[in]
+A = false
+B = true
+
+[out]
+Sum: true
+Carry: false
+```
+
+入出力例3
+```
+[in]
 A = true
 B = false
 
 [out]
-A: true, B: false
-Sum: true, Carry: false
+Sum: true
+Carry: false
 ```
 
-入出力例2
+入出力例4
 ```
 [in]
 A = true
 B = true
 
 [out]
-A: true, B: true
-Sum: false, Carry: true
+Sum: false
+Carry: true
 ```
-
-入出力例3
-```
-[in]
-A = false
-B = false
-
-[out]
-A: false, B: false
-Sum: false, Carry: false
-```
-
 </details>
 
 ---
