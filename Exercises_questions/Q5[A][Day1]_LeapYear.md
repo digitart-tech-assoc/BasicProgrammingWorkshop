@@ -47,4 +47,6 @@ year = 1900
 ---
 Congratulations!!  
 本日の演習問題はこれで終わりです。  
+追加問題もあるよ!!
+[追加問題へ](./Day1-2_extra/Q5_1_AgeClassification.md)  
 [演習問題一覧に戻る](../README.md#javascript基礎演習)

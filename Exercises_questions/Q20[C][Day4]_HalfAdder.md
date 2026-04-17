@@ -14,50 +14,105 @@
 | true  | true  | false | true  | 
 
 ```javascript
-let A = true;
+
+function halfAdder(A, B) {
+    let sum = false;
+    let carry = false;
+
+    // WRITE ME!!
+
+    return { sum, carry }
+}
+
+let A = false;
 let B = false;
 
-// WRITE ME!!
+let result = halfAdder(A, B);
+console.log("Sum:", result.sum);
+console.log("Carry:", result.carry);
 
-console.log("A: " + A + ", B: " + B);
-console.log("Sum: " + S + ", Carry: " + C);
+function or(a, b) {
+    let result = (a == true || b == true) ? true : false;
+    return result
+}
+
+function and(a, b) {
+    let result = (a == true && b == true) ? true : false;
+    return result
+}
+
+function not(a) {
+    return a == true ? false : true;
+}
+
 ```
+
+> [!NOTE]
+> すでにビット計算で必要な関数を実装してある。    
+> `and(A,B)`, `or(A,B)`, `not(A)`の関数が上のサンプルコードに定義されている。  
+> その関数と、宣言済みの変数のみを使ってコードを書ける。  
+> ```javascript
+> let A = true
+> let B = false
+> console.log(and(A,B));
+> console.log(or(A,B));
+> console.log(not(A));
+> console.log(and(A,not(B)))
+> > false //AND演算
+> > true  //OR演算
+> > false //NOT演算
+> > true
+> ```
+
+> [!TIP]
+> この演算を「半加算器」と呼ぶ。  
+> CPUが計算する上で最も基本となる論理回路である。CPUは二進数(電気信号のON/OFF)を用いて演算を行うため、このように`true`と`false`のみを使用した計算を行っている。  
 
 <details><summary>入力と出力</summary>
 
 入出力例1
 ```
 [in]
+A = false
+B = false
+
+[out]
+Sum: false
+Carry: false
+```
+
+入出力例2
+```
+[in]
+A = false
+B = true
+
+[out]
+Sum: true
+Carry: false
+```
+
+入出力例3
+```
+[in]
 A = true
 B = false
 
 [out]
-A: true, B: false
-Sum: true, Carry: false
+Sum: true
+Carry: false
 ```
 
-入出力例2
+入出力例4
 ```
 [in]
 A = true
 B = true
 
 [out]
-A: true, B: true
-Sum: false, Carry: true
+Sum: false
+Carry: true
 ```
-
-入出力例3
-```
-[in]
-A = false
-B = false
-
-[out]
-A: false, B: false
-Sum: false, Carry: false
-```
-
 </details>
 
 ---
