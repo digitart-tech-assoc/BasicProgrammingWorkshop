@@ -49,9 +49,9 @@
     - [Q6[A][Day2]](
         Exercises_questions/Q6[A][Day2]_Sigma.md
       ). $Sigma$
-    - [Q7[B][Day2]](
-        Exercises_questions/Q7[B][Day2]_Collatz.md
-      ). $Collatz$
+    - [Q7[A][Day2]](
+        Exercises_questions/Q7[A][Day2]_MultiplicationTable.md
+      ). $MultiplicationTable$
     - [Q8[B][Day2]](
         Exercises_questions/Q8[B][Day2]_Sqrt.md
       ). $Sqrt$
