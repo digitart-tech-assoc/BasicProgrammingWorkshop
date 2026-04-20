@@ -21,5 +21,5 @@ console.log(sum);
 ---
 [答え](../../Exercises_answers/Day2/Q6[A][Day2]_Sigma.js)
 
-[次の問題へ進む](Q7[A][Day2]_MultiPlicationTeable.md)  
+[次の問題へ進む](./Q7[A][Day2]_MultiPlicationTeable.md)  
 [演習問題一覧に戻る](../README.md#javascript基礎演習)
