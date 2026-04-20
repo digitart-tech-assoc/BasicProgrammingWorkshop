@@ -12,7 +12,7 @@
 let A = 56;
 let B = 98;
 
-// WRITE ME!!
+// ここにコードを入力
 
 console.log("最大公約数: " + gcd);
 ```

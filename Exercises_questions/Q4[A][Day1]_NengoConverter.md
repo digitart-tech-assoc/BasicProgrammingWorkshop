@@ -11,7 +11,7 @@ let year = 2000;
 let era = "";
 let eraYear = 0;
 
-// WRITE ME!!
+// ここにコードを入力
 
 console.log(era + eraYear + "年");
 ```

@@ -5,7 +5,7 @@
 ```javascript
 let scores = [82, 53, 71, 15, 85, 71, 71, 41, 23, 74, 65, 15];
 
-// WRITE ME!!
+// ここにコードを入力
 
 console.log("Mean:" + mean);
 ```

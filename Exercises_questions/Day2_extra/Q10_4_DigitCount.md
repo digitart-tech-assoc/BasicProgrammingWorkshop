@@ -5,7 +5,7 @@
 ```javascript
 let num = 12345;
 
-// WRITE ME!!
+// ここにコードを入力
 
 console.log(digitCount);
 ```

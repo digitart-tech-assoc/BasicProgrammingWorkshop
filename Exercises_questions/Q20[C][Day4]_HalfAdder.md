@@ -19,7 +19,7 @@ function halfAdder(A, B) {
     let sum = false;
     let carry = false;
 
-    // WRITE ME!!
+    // ここにコードを入力
 
     return { sum, carry }
 }

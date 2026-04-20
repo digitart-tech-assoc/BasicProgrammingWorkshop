@@ -5,7 +5,7 @@
 ```javascript
 let n = 20;
 
-// WRITE ME!!
+// ここにコードを入力
 
 console.log(result);
 ```

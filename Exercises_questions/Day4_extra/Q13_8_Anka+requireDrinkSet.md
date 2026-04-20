@@ -13,7 +13,7 @@ let isRequireMain = true;
 let isRequireDessert = true;
 let isRequireDrinkSet = true;
 
-// WRITE ME!!
+// ここにコードを入力
 
 console.log("注文: " + order_list);
 console.log("合計: " + total_cost + "円");

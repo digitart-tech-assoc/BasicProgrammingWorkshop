@@ -5,7 +5,7 @@
 ```javascript
 let num = 5;
 
-// WRITE ME!!
+// ここにコードを入力
 ```
 
 <details><summary>入力と出力</summary>

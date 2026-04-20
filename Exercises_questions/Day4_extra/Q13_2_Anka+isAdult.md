@@ -8,7 +8,7 @@ let budget = 1000;
 let isChild = true;
 let isAdult = true;
 
-// WRITE ME!!
+// ここにコードを入力
 
 console.log("注文: " + order_list);
 console.log("合計: " + total_cost + "円");
