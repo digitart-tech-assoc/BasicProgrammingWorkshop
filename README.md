@@ -582,7 +582,7 @@ console.log( ( 2 + 3 ) * 4);
 > [!NOTE]
 > ここまで学んだ内容をもとに演習問題に挑戦してみましょう！  
 > 問題を解くことで、プログラミングの基礎の理解や定着につながります。  
-> [演習問題: Q1 TimeConversion](./Exercises_questions/Q1[A][Day1]_TimeConversion.md)  
+> [演習問題: Q1 TimeConversion](Exercises_questions/Q1[A][Day1]_TimeConversion.md)  
 
 ### 1.4. 制御構文
 
@@ -628,7 +628,7 @@ if( score == 100 ){
 
 > [!NOTE]
 > ここまでの内容で演習問題に挑戦しましょう！  
-> [演習問題: Q2 dice](./Exercises_questions/Q2[A][Day1]_dice.md)  
+> [演習問題: Q2 dice](Exercises_questions/Q2[A][Day1]_dice.md)  
 
 #### 1.4.2. 反復処理
 開発では同じ処理を何度も繰り返し行うことがあります。試しに"Loading..."と5回出力するプログラムを書いてみましょう。
@@ -714,7 +714,7 @@ for( idx = 0 ; idx < 5 ; idx++ ){
 
 > [!NOTE]
 > ここまでの内容で演習問題に挑戦しましょう！  
-> [演習問題: Q6 Sigma](./Exercises_questions/Q6[A][Day2]_Sigma.md)
+> [演習問題: Q6 Sigma](Exercises_questions/Q6[A][Day2]_Sigma.md)
 
 ### 1.5. 配列
 
@@ -764,7 +764,7 @@ menu.lengthにより配列の要素数をforループの上限数としていま
 
 > [!NOTE]
 > ここまでの内容で演習問題に挑戦しましょう！  
-> [演習問題: Q11 CTM](./Exercises_questions/Q11[A][Day3]_CTM.md)
+> [演習問題: Q11 CTM](Exercises_questions/Q11[A][Day3]_CTM.md)
 
 ### 1.6. 関数
 関数とは、一連の処理のまとまりに名前を付けて1つの処理として扱う機能です。  
@@ -836,4 +836,4 @@ function defMsg() {
 
 > [!NOTE]
 > ここまでの内容で演習問題に挑戦しましょう！  
-> [演習問題: Q16 Manufacturer](./Exercises_questions/Q16[B][Day4]_Manufacturer.md)
+> [演習問題: Q16 Manufacturer](Exercises_questions/Q16[B][Day4]_Manufacturer.md)
