@@ -6,7 +6,7 @@
 let num = 2;
 let result = 0;
 
-// WRITE ME!!
+// ここにコードを入力
 
 console.log(num + "の平方はだいたい" + result + "です。");
 ```

@@ -6,7 +6,7 @@
 let numbers = [10, 20, 30, 40, 50, 30];
 let target = 30;
 
-// WRITE ME!!
+// ここにコードを入力
 
 console.log(index);
 ```

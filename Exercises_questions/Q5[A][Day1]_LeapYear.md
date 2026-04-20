@@ -8,7 +8,7 @@
 ```javascript
 let year = 2000;
 
-// WRITE ME!!
+// ここにコードを入力
 
 ```
 

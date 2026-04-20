@@ -3,7 +3,7 @@
 1から1,000までの自然数の総和を求めよ。
 
 ```javascript
-// WRITE ME!!
+// ここにコードを入力
 
 console.log(sum);
 ```
