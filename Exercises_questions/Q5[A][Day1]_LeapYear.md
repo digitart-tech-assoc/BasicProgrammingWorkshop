@@ -45,6 +45,8 @@ year = 1900
 </details>
 
 ---
+[答え](../../Exercises_answers/Day1/Q5[A][Day1]_LeapYear.js)
+
 Congratulations!!  
 本日の演習問題はこれで終わりです。  
 追加問題もあるよ!!

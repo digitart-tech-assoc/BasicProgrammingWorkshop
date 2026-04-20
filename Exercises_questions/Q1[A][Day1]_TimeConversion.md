@@ -34,6 +34,8 @@ totalSeconds = 135
 </details>
 
 ---
+[答え](../../Exercises_answers/Day1/Q1[A][Day1]_TimeConversion.js)
+
 Congratulations!!  
 現時点での演習問題は終わりです。  
 次は「条件文」を学んでいきます。  

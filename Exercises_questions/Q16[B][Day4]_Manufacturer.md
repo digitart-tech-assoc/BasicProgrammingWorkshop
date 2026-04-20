@@ -68,5 +68,7 @@ targetSteps = 11000
 </details>
 
 ---
+[答え](../../Exercises_answers/Day4/Manufacturer.js)
+
 [次の問題へ進む](Q17[B][Day4]_AliveDays.md)  
 [演習問題一覧に戻る](../README.md#javascript基礎演習)

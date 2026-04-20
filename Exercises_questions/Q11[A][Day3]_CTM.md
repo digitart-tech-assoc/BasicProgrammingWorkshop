@@ -41,5 +41,7 @@ Mean: 30
 </details>
 
 ---
+[答え](../../Exercises_answers/Day3/CTM.js)
+
 [次の問題へ進む](Q12[A][Day3]_Anka.md)  
 [演習問題一覧に戻る](../README.md#javascript基礎演習)
