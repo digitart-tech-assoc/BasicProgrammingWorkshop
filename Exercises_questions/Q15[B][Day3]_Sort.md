@@ -43,6 +43,8 @@ A = [100, 90, 80, 70, 60, 50]
 </details>
 
 ---
+[答え](../../Exercises_answers/Day3/Sort.js)
+
 Congratulations!!  
 本日の演習問題はこれで終わりです。  
 追加問題もあるよ!!
