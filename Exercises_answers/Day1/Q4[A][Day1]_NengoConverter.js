@@ -15,7 +15,6 @@ if(year >= 2019){
     eraYear = year - 1925
 }else{
     console.log("昭和以前です。")
-    return
 }
 
 if(era != "") {
