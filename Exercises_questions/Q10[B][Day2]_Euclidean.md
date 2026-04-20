@@ -52,7 +52,7 @@ B = 103
 </details>
 
 ---
-[答え](../../Exercises_answers/Day2/Q10[B][Day2]_Euclidean.js)
+[答え](../Exercises_answers/Day2/Q10[B][Day2]_Euclidean.js)
 
 Congratulations!!  
 本日の演習問題はこれで終わりです。  

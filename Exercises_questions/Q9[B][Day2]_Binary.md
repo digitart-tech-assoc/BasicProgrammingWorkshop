@@ -41,7 +41,7 @@ n = 255
 </details>
 
 ---
-[答え](../../Exercises_answers/Day2/Q9[B][Day2]_Binary.js)
+[答え](../Exercises_answers/Day2/Q9[B][Day2]_Binary.js)
 
 [次の問題へ進む](./Q10[B][Day2]_Euclidean.md)  
 [演習問題一覧に戻る](../README.md#javascript基礎演習)

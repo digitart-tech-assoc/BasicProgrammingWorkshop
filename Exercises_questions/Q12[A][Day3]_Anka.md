@@ -139,7 +139,7 @@ console.log("合計: " + total_cost + "円");
 </details>
 
 ---
-[答え](../../Exercises_answers/Day3/Anka.js)
+[答え](../Exercises_answers/Day3/Anka.js)
 
 [次の問題へ進む](Q13[B][Day3]_Anka+.md)  
 [演習問題一覧に戻る](../README.md#javascript基礎演習)
