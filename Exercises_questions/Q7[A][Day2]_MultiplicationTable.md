@@ -26,3 +26,6 @@ num = 3
 3 × 9 = 27
 ```
 </details>
+
+---
+[答え](../../Exercises_answers/Day2/Q7[A][Day2]_MultiplicationTable.js)
