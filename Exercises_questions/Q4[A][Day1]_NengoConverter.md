@@ -49,7 +49,7 @@ year = 1920
 </details>
 
 ---
-[答え](../../Exercises_answers/Day1/Q4[A][Day1]_NengoConverter.js)
+[答え](../Exercises_answers/Day1/Q4[A][Day1]_NengoConverter.js)
 
 [次の問題へ進む](Q5[A][Day1]_LeapYear.md)  
 [演習問題一覧に戻る](../README.md#javascript基礎演習)
