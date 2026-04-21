@@ -1,7 +1,7 @@
 ### Q17[A][Day4]. $`Anka+isAdult`$
 
 Q13[B] の Anka+ を改変し、`isAdult` というbool型の変数を追加する。
-- `isAdult`が`false`の場合は、アルコール（メニュー番号4000番台）がメニューに入らない
+- `isAdult`が`false`の場合は、アルコール（メニュー番号3400番~3999番）がメニューに入らない
 
 ```javascript
 let budget = 1000;
