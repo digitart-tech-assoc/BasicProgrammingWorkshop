@@ -116,10 +116,8 @@ Carry: true
 </details>
 
 ---
-[答え](../Exercises_answers/Day4/Q20[C][Day4]_HalfAdder.js)
+[答え](../../Exercises_answers/Day4/extra/Q20_5_HalfAdder.js)
 
 Congratulations!!  
-本日の演習問題はこれで終わりです。  
-追加問題もあるよ!!
-[追加問題へ](./Day4_extra/Q13_1_Anka+isChild.md)  
-[演習問題一覧に戻る](../README.md#javascript基礎演習)
+現時点での演習問題は終わりです。  
+[演習問題一覧に戻る](../../README.md#javascript基礎演習)

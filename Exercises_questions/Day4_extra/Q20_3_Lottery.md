@@ -35,7 +35,7 @@ console.log("確率：" + probability);
 </details>
 
 ---
-[答え](../Exercises_answers/Day4/Q18[B][Day4]_Lottery.js)
+[答え](../../Exercises_answers/Day4/extra/Q20_3_Lottery.js)
 
-[次の問題へ進む](Q19[C][Day4]_Fibonatti.md)  
-[演習問題一覧に戻る](../README.md#javascript基礎演習)
+[次の問題へ進む](Q20_4_Fibonatti.md)  
+[演習問題一覧に戻る](../../README.md#javascript基礎演習)

@@ -51,7 +51,7 @@ nowDate = [2025, 4, 29]
 </details>
 
 ---
-[答え](../Exercises_answers/Day4/Q17[B][Day4]_AliveDays.js)
+[答え](../../Exercises_answers/Day4/extra/Q20_2_AliveDays.js)
 
-[次の問題へ進む](Q18[B][Day4]_Lottery.md)  
-[演習問題一覧に戻る](../README.md#javascript基礎演習)
+[次の問題へ進む](Q20_3_Lottery.md)  
+[演習問題一覧に戻る](../../README.md#javascript基礎演習)
