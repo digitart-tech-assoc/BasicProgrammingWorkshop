@@ -133,7 +133,7 @@ function isOrderAble(isChild, isAdult, order_idx){
     }
 
     // ドリンクセットの注文はメイン料理を1つ以上注文している場合のみ
-    if ( 5100 <= order_idx && order_idx < 5200 ){  // ドリンクセット
+    if ( order_idx == 5101 || order_idx == 5102 ){  // ドリンクセット
         if ( !hasMainDish ){
             return false  // メイン料理を注文していないのにドリンクセットを注文している
         }
