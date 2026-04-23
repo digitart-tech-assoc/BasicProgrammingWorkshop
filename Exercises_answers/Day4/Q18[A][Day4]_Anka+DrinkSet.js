@@ -5,6 +5,7 @@ let isAdult = false
 
 let total_cost = 0
 let order_list = []
+let hasMainDish = false  // メイン料理を注文したかのフラグ
 
 let menu_list = [
     [1202,"小エビのサラダ",350],
@@ -130,6 +131,13 @@ function isOrderAble(isChild, isAdult, order_idx){
             return false  // 大人でない人が注文している
         }
     }
+
+    // ドリンクセットの注文はメイン料理を1つ以上注文している場合のみ
+    if ( 5100 <= order_idx && order_idx < 5200 ){  // ドリンクセット
+        if ( !hasMainDish ){
+            return false  // メイン料理を注文していないのにドリンクセットを注文している
+        }
+    }
     
     return true
 }
@@ -143,6 +151,11 @@ while(true){
         }
         order_list.push(order[1])
         total_cost += order[2]
+        
+        // メイン料理（2000番台）を注文したかチェック
+        if ( 2000 <= order[0] && order[0] < 3000 ){
+            hasMainDish = true
+        }
     }
 
     //  条件に合うか確認
@@ -154,6 +167,7 @@ while(true){
     //  初期化
     total_cost = 0
     order_list = []
+    hasMainDish = false
 }
 
 console.log("注文: " + order_list)
