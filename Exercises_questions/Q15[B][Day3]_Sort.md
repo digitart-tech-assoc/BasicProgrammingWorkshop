@@ -48,5 +48,5 @@ A = [100, 90, 80, 70, 60, 50]
 Congratulations!!  
 本日の演習問題はこれで終わりです。  
 追加問題もあるよ!!
-[追加問題へ](./Day3_extra/Q15_1_ArrayContains_.md)  
+[追加問題へ](./Day3_extra/Q15_1_ArrayContains.md)  
 [演習問題一覧に戻る](../README.md#javascript基礎演習)

@@ -114,6 +114,31 @@ console.log("合計: " + total_cost + "円");
 ```
 </details>
 
+> [!Note]
+> `menu_list` は **二重配列** です。配列の中にさらに配列が入っている構造です。  
+>
+> ```javascript
+> // 構造の例
+> menu_list = [
+>   [1202, "小エビのサラダ", 350],      // 0番目の配列
+>   [1205, "わかめのサラダ", 350],      // 1番目の配列
+>   [1209, "チキンのサラダ", 350]       // 2番目の配列
+> ];
+> ```
+>
+> **アクセス方法：**
+> - `menu_list[0]` → `[1202, "小エビのサラダ", 350]` （0番目の配列全体）
+> - `menu_list[0][0]` → `1202` （0番目の配列の0番目の要素 = 商品番号）
+> - `menu_list[0][1]` → `"小エビのサラダ"` （0番目の配列の1番目の要素 = 商品名）
+> - `menu_list[0][2]` → `350` （0番目の配列の2番目の要素 = 価格）
+>
+> **ランダム選択の例：**
+> ```javascript
+> let random_index = Math.floor(Math.random() * menu_list.length);
+> let selected_item = menu_list[random_index];  // ランダムなメニュー1つ
+> let price = menu_list[random_index][2];       // その価格を取得
+> ```
+
 <details><summary>入力と出力</summary>
 
 出力例1
