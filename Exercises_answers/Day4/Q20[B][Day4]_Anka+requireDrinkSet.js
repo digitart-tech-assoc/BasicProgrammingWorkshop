@@ -135,15 +135,15 @@ function isOrderAble(isChild, isAdult, order_idx){
     }
 
     // ドリンクセットの注文はメイン料理を1つ以上注文している場合のみ
-    if ( order_idx == 5101 || order_idx == 5102 ){  // ドリンクセット
+    if ( 5100 <= order_idx && order_idx < 5200 ){  // ドリンクセット
         if ( !hasMainDish ){
             return false  // メイン料理を注文していないのにドリンクセットを注文している
         }
     }
     
-    // メインを注文している場合、単品ドリンクバー(5103)は注文できない
-    if ( hasMainDish && order_idx == 5103 ){  // 単品ドリンクバー
-        return false  // メイン料理を注文しているのに単品ドリンクバーを注文している
+    // isRequireDrinkSet=trueの場合、単品ドリンクバー(5103)は注文不可
+    if ( isRequireDrinkSet && order_idx == 5103 ){
+        return false  // セットドリンクが必要なのに単品ドリンクバーを注文している
     }
     
     return true
@@ -166,12 +166,12 @@ for( let i = 0; i < 1000; i++ ){  // 最大で1000回試行
         
         // 必要なドリンク条件を満たしたかをチェック
         if ( isRequireDrinkSet ){
-            // isChildがfalseの場合：セットドリンクバー(5101)または単品ドリンクバー(5103)を注文
-            if ( !isChild && (order[0] == 5101 || order[0] == 5103) ){
+            // isChildがfalseの場合：セットドリンクバー(5101)を注文
+            if ( !isChild && order[0] == 5101 ){
                 hasRequiredDrinkSet = true
             }
-            // isChildがtrueの場合：キッズドリンクバー(5102)または単品ドリンクバー(5103)を注文
-            if ( isChild && (order[0] == 5102 || order[0] == 5103) ){
+            // isChildがtrueの場合：キッズドリンクバー(5102)を注文
+            if ( isChild && order[0] == 5102 ){
                 hasRequiredDrinkSet = true
             }
         }else{
