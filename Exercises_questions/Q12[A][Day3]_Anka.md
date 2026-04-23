@@ -112,7 +112,6 @@ let menu_list = [
 console.log("注文: " + order_list);
 console.log("合計: " + total_cost + "円");
 ```
-</details>
 
 > [!Note]
 > `menu_list` は **二重配列** です。配列の中にさらに配列が入っている構造です。  
@@ -138,6 +137,8 @@ console.log("合計: " + total_cost + "円");
 > let selected_item = menu_list[random_index];  // ランダムなメニュー1つ
 > let price = menu_list[random_index][2];       // その価格を取得
 > ```
+
+</details>
 
 <details><summary>入力と出力</summary>
 
