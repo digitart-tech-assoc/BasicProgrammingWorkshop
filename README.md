@@ -850,4 +850,4 @@ function defMsg() {
 
 > [!NOTE]
 > ここまでの内容で演習問題に挑戦しましょう！  
-> [演習問題: Q16 Manufacturer](Exercises_questions/Q16[B][Day4]_Manufacturer.md)
+> [演習問題: Q16 Anka+isChild](Exercises_questions/Q16[A][Day4]_Anka+isChild.md)
