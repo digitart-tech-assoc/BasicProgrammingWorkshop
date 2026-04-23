@@ -639,7 +639,7 @@ if( score == 100 ){
 
 > [!NOTE]
 > ここまでの内容で演習問題に挑戦しましょう！  
-> [演習問題: Q2 dice](Exercises_questions/Q2[A][Day1]_Dice.md)  
+> [演習問題: Q2 Shopping](Exercises_questions/Q2[A][Day1]_Shopping.md)  
 
 #### 1.4.2. 反復処理
 開発では同じ処理を何度も繰り返し行うことがあります。試しに"Loading..."と5回出力するプログラムを書いてみましょう。
