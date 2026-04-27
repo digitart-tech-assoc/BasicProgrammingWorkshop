@@ -692,10 +692,10 @@ while( cnt < 5 ){
 > let cnt = 0;
 > while( cnt < 5 ){
 >   console.log(cnt);
->   cnt += 1;
 >   if(cnt == 3){
 >     break
 >   }
+>   cnt += 1;
 > }
 > console.log("Task Complete!")
 > > 0
